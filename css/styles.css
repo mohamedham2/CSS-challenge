@@ -1,0 +1,100 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+  color:hsl(224, 23%, 55%);
+}
+
+img{
+  width: 100%;
+}
+
+.top-img{
+  border-radius: 20px 20px 0 0;
+}
+
+.thepage{
+  position: relative;
+  top:-34px;
+}
+
+.main-box{
+  font-family: 'Red Hat Display', sans-serif;
+  position: absolute;
+  top:0;
+  left: 50%;
+  top: 20%;
+  border-radius: 20px;
+  width:360px;
+  margin-left: -160px;
+  radius:30px;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.main-box p{
+  width:290px;
+  margin: 24px auto;
+}
+
+.plan{
+  position: relative;
+  border-radius: 10px;
+  background-color:hsl(225, 100%, 94%);
+  margin: 0 40px;
+  height: 86px;
+  width: 280px;
+}
+
+.plan p{
+  line-height: 1.5;
+  margin:0;
+  width:120px;
+  padding-top: 0;
+  padding-bottom: 0px;
+}
+.plan img{
+  width:48px;
+}
+
+div.left{
+  position: absolute;
+  display: inline-block;
+  top:19px;
+  left:20px;
+  height: 48px;
+}
+div.middle{
+  position: absolute;
+  display: inline-block;
+  top: 19px;
+  left:60px;
+  width: 100px;
+}
+div.right{
+  position: absolute;
+  display: inline-block;
+  top:34px;
+  right:20px;
+}
+.paymentbtn{
+  display:block;
+  color:white;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  line-height: 2.8;
+  font-weight: 700;
+  margin: 24px 40px 24px;
+  height: 45px;
+  width: 280px;
+}
+.cancel{
+  display:block;
+  font-weight: 700;
+  margin: 20px 0 40px;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+.attribution{
+  display: none;
+}
